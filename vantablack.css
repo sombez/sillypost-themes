@@ -1,0 +1,267 @@
+body {
+  background-color: black ;
+background-image:url();
+}
+
+#header {
+background-color:black;
+background-image:url();
+}
+
+
+/*this is the little marquee that changes text whenever you refresh!*/
+#motd{
+background-color:black;
+background-image:url();
+color:white;
+font-family: helvetica;
+}
+
+#wrapper {
+    padding:0px;
+    position:relative;
+    background-color:black;
+background-image:url();
+}
+
+/* profile info  */
+
+#profile-right {
+background-color:black;
+    margin-right: 128px;
+    text-align: right;
+    width: 50%;
+    overflow: visible;
+    margin-left: auto;
+padding:5px;
+}
+
+/* main container */
+#main {
+background-color:black;
+background-image:url();
+color:white ;
+}
+
+/* navbar */
+
+#navbar {
+background-color:black;
+color:white ;
+font-family: helvetica;
+a {
+    color:white;
+ text-align: center;
+}
+a:visited, a:hover, a:focus, a:active {
+    color:white;
+}
+}
+
+#logo{
+  background: url("https://swag.s-ul.eu/img/JxRYC2Zs");
+  background-size: contain;
+  box-sizing: border-box;
+  width: 200px;
+  height: 88px;
+  padding-left: 220px;
+}
+
+/* all links */
+a {
+    color:white ;
+}
+
+
+/* posts */
+
+#posts{
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: black;
+    width: 50%;
+    color: white;
+    padding: 20px;
+}
+.post-author{
+
+    background: black;
+    width: 100%;
+    color: white;
+}
+.post-group{
+
+    background: black;
+    color: white;
+}
+
+.post-group-displayname {
+    color: white;
+}
+}
+
+.editor-container {
+background-color: black;
+}
+
+/* mailbox */
+
+#mail-box-outer{
+    background: black;
+    color: white;
+}
+
+.mail-box-mail {
+background: black;
+color: white;
+}
+
+.mail-box-subject {
+ color: white;
+}
+
+#mail, #mail-content {
+ background: black;
+color: white;
+}
+
+/* leaderboard */
+
+.directory-user {
+ background-color: black;
+ color: white;
+text-decoration: none;
+}
+
+.directory-user-ipods {
+ animation: none;
+color: red;
+}
+
+/* classified */
+
+#classified-ad-info {
+    background: #000000;
+    box-shadow: none;
+}
+
+
+#classified-ad-description {
+    background: black;
+    box-shadow: none;
+}
+
+/* rest */
+
+p, body {
+  font-family: helvetica;
+font-weight: bold;
+  letter-spacing: 1%;
+  background-color: #000;
+}
+
+/* added */
+
+#center-side {
+ background: black;
+}
+
+/* buttons site wide */
+
+input {
+ background: black;
+border: none;
+ color: white;
+padding: 5px;
+font-size: 12px;
+font-weight: normal;
+font-style: italic;
+}
+
+input:hover {
+ background: white;
+border: none;
+ color: black;
+padding: 5px;
+font-size: 12px;
+}
+
+#mail-box-outer > button {
+ background: black;
+border: none;
+ color: white;
+padding: 5px;
+font-size: 12px;
+font-weight: normal;
+font-style: italic;
+}
+
+#mail-box-outer > button:hover {
+ background: white;
+border: none;
+ color: black;
+padding: 5px;
+font-size: 12px;
+}
+
+button {
+ background: black;
+border: none;
+ color: white;
+padding: 5px;
+font-size: 12px;
+font-weight: bold;
+}
+
+button:hover {
+ background: white;
+border: none;
+ color: black;
+padding: 5px;
+font-size: 12px;
+}
+
+/* fish game patches */
+
+#talkbox {
+ color:white;
+}
+
+#bait-display {
+ background: url();
+ box-shadow: none;
+}
+
+#bait-display > * {
+ background: black;
+ box-shadow: none;
+}
+
+#bait-display > *:hover {
+ background: black;
+ color: red;
+ box-shadow: none;
+}
+
+#fish-display {
+ background: url();
+ box-shadow: none;
+}
+
+#fish-display > * {
+ background: black;
+ box-shadow: none;
+}
+
+#fish-display > *:hover {
+ background: black;
+ color: red;
+ box-shadow: none;
+}
+
+
+#bait-display > *:hover:not(.disabled) {
+    background: black;
+}
