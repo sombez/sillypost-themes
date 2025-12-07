@@ -1,0 +1,209 @@
+body {
+  font-family: helvetica;
+  letter-spacing: 1%;
+  background-color: #000;
+}
+
+#logo {
+  background: url("https://swag.s-ul.eu/img/JxRYC2Zs");
+  background-size: contain;
+  box-sizing: border-box;
+  width: 200px;
+  height: 88px;
+  padding-left: 220px;
+}
+
+#main {
+ background: #000;
+color: #fff;
+}
+
+#new-post {
+background: #000;
+border: 1px solid transparent;
+}
+
+.editor-container {
+ background-color:#000;
+}
+
+#header-welcome > a {
+color: red;
+text-decoration: none;
+font-weight: bold;
+}
+
+#header-welcome > a,a:visited {
+color: red;
+text-decoration: none;
+font-weight: bold;
+}
+
+.game > h2,a,a:visited {
+ color: #fff;
+ text-decoration: none;
+}
+
+.game > h2 {
+padding: 5px;
+    text-align: center;
+margin:10px;
+}
+
+.group, .group:visited {
+background: #000;
+color: #fff;
+}
+
+#skills {
+background: #000;
+color: #fff;
+}
+
+.user:nth-child(odd) {
+ background: #000;
+ color: #fff;
+}
+
+.user {
+ background: #000;
+ color: #fff;
+}
+
+.mail {
+ background: #000;
+ color: #fff
+}
+
+#mail {
+ background: #000;
+ color: #fff
+}
+
+.mail-subject, .mail-subject:visited {
+color: #fff;
+font-weight: normal;
+}
+
+#wrapper {
+  box-shadow: 0 0 100px #000;
+ background: #000;
+color: #fff;
+}
+
+#header {
+  background: #000;
+  border-bottom: 1px solid #000;
+}
+
+#header-left {
+  background: #000;
+}
+
+#navbar {
+  background-color: #000;
+  border-right: 0 solid #fff;
+  border-bottom: 0 solid #fff;
+  justify-content: center;
+  top: 5% bottom:5%;
+}
+
+#navbar > a, #navbar > a:visited {
+  color: #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 0 solid #fff;
+text-decoration: none;
+}
+
+#navbar > a:hover {
+  color: #fff;
+  size:25px;
+}
+
+.post-author, .post-author:visited {
+  color: #fff;
+}
+
+.post {
+  background: #000;
+}
+
+.post:nth-child(2n) {
+  background: #000;
+}
+
+.post:nth-child(3n) {
+  background: #000;
+}
+
+.post:nth-child(4n) {
+  background: #000;
+}
+
+.post:nth-child(5n) {
+  background: #000;
+}
+
+.post:nth-child(6n) {
+  background: #000;
+}
+
+.post:nth-child(7n) {
+  background: #000;
+}
+
+.post:nth-child(8n) {
+  background: #000;
+}
+
+.post:nth-child(9n) {
+  background: #000;
+}
+
+.post:nth-child(10n) {
+  background: #000;
+}
+
+/* posts */
+
+.ctform > button[type="submit"] {
+    background:url("https://i0.wp.com/otsvo.com/wp-content/uploads/2020/09/36807-4-sad-emoji-clipart.png?ssl=1") no-repeat;
+background-size: contain;
+  box-sizing: border-box;
+    cursor:pointer;
+    border:none;
+    width:50px;
+    height:50px;
+color: transparent;
+}
+
+.ctform > button[type="submit"]:disabled {
+    background:url("https://packs.cactransfer.com/s/60020/0.webp") no-repeat;
+background-size: contain;
+width:50px;
+    height:50px;
+}
+
+.ctform > button[type="submit"]:hover {
+animation:none;
+    color: transparent;
+}
+
+/* wordgame patch */
+
+#guesses {
+    background-color: black;
+    box-shadow: 0 0 100px black;
+}
+
+#complete-banner {
+    position: fixed;
+    margin: auto;
+    width: 640px;
+    height: 480px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.999);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
