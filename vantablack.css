@@ -75,7 +75,7 @@ a {
 
 /* posts */
 
-#posts{
+
 .post {
     display: flex;
     flex-direction: column;
@@ -85,11 +85,25 @@ a {
     color: white;
     padding: 20px;
 }
-.post-author{
-
-    background: black;
-    width: 100%;
+.post-author, .post-author:visited {
+background: black;
+width: 100%;
     color: white;
+}
+
+.post-author > a, a:visited; {
+ color: white;
+ text-decoration: none;
+}
+
+.post-author-colonthree {
+top: -10px;
+ right: 20px;
+ position:relative; 
+}
+
+
+
 }
 .post-group{
 
@@ -100,7 +114,7 @@ a {
 .post-group-displayname {
     color: white;
 }
-}
+
 
 .editor-container {
 background-color: black;
